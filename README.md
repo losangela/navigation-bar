@@ -1,7 +1,7 @@
-# Project Name
+# PetFinder Navigation Bar
 
 > Project description
-Navigation bar for dog adoption webpage project
+Navigation bar for a pet finder web application. PetFinder allows users to find pets available for adoption near them. Users can search for pets based on species, size, color, and location.
 
 ## Related Projects
 
