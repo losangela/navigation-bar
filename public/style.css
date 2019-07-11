@@ -105,7 +105,48 @@ button:focus, input:focus{
   outline: none;
 }
 
+.nav-register-icon {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  background: url("https://s3-us-west-1.amazonaws.com/petfinder-nav/icon-register.png") no-repeat center;
+  background-size:28px 30px;
+  display: inline-block;
+}
 
+.nav-top-button:hover .nav-register-icon{
+  color: #6504b5;
+  background: url("https://s3-us-west-1.amazonaws.com/petfinder-nav/icon-register-hover.png") no-repeat center;
+  background-size:28px 30px;
+}
+
+.nav-search-icon {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  background: url("https://s3-us-west-1.amazonaws.com/petfinder-nav/icon-search.png") no-repeat center;
+  background-size:25px 30px;
+  display: inline-block;
+}
+
+.nav-top-button:hover .nav-search-icon{
+  background: url("https://s3-us-west-1.amazonaws.com/petfinder-nav/icon-search-hover.png") no-repeat center;
+  background-size:25px 30px;
+}
+
+.nav-searching-icon {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  background: url("https://s3-us-west-1.amazonaws.com/petfinder-nav/icon-searching.png") no-repeat center;
+  background-size:25px 30px;
+  display: inline-block;
+}
+
+.navClose {
+  background: url(https://s3-us-west-1.amazonaws.com/petfinder-nav/icon-close_colorWhite.svg) no-repeat center;
+  background-size:20px 20px;
+}
 
 .nav-button {
   background-color: WHITE; /* Green */
